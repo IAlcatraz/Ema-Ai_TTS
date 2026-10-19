@@ -1,0 +1,23 @@
+# Your keys. Never share this file.
+.env
+
+# Generated at runtime
+.venv/
+audio/
+logs/
+memories/
+chat_history*.json
+uploads/*
+!uploads/.gitkeep
+client/audio/*.wav
+
+# Python
+*.pyc
+__pycache__/
+
+# Node
+node_modules/
+
+tools/ffmpeg/bin/ffmpeg.exe
+tools/ffmpeg/bin/ffplay.exe
+tools/ffmpeg/bin/ffprobe.exe
